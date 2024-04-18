@@ -71,3 +71,8 @@ required-features = ["invoicesrpc"]
 name = "intercept_htlcs"
 path = "examples/intercept_htlcs.rs"
 required-features = ["routerrpc"]
+
+[[example]]
+name = "check_endorsed"
+path = "examples/check_endorsed.rs"
+required-features = ["lightningrpc"]
